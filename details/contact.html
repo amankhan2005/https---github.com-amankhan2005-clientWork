@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Talmiz</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+     
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     }
+    h1, h2 {
+      color: #333;
+      text-align: center;
+    }
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+    .social-links a {
+      margin: 10px;
+      font-size: 18px;
+      color: #007BFF;
+      text-decoration: none;
+    }
+    .social-links a:hover {
+      text-decoration: underline;
+    }
+    .cta-button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 18px;
+      color: white;
+      background-color: #007BFF;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .cta-button:hover {
+      background-color: #0056b3;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    input, textarea {
+      padding: 10px;
+      margin-bottom: 10px;
+      font-size: 16px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+    input[type="submit"] {
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    input[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Contact Us</h1>
+</header>
+
+<div class="container">
+  <h2>Get In Touch</h2>
+  <p>
+    Have any questions, feedback, or collaboration inquiries? I’d love to hear from you!
+    Please fill out the contact form below, or connect with me through my social media profiles.
+  </p>
+
+  <h3>Contact Form</h3>
+  <form action="#" method="POST">
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" name="name" required placeholder="Enter your name">
+
+    <label for="email">Your Email:</label>
+    <input type="email" id="email" name="email" required placeholder="Enter your email address">
+
+    <label for="message">Your Message:</label>
+    <textarea id="message" name="message" rows="5" required placeholder="Write your message here"></textarea>
+
+    <input type="submit" value="Send Message">
+  </form>
+
+  <h3>Social Media</h3>
+  <p>You can also reach out to me through my social media profiles:</p>
+  <div class="social-links">
+    <a href="https://www.instagram.com/talmiz__lucky/" target="_blank">Instagram: @talmiz__lucky</a>
+    <a href="https://www.youtube.com/@TALMIZLUCKY" target="_blank">YouTube: TALMIZLUCKY</a>
+  </div>
+
+  <a href="/details/about.html" class="cta-button">Back to About</a>
+  <a href="/index.html" class="cta-button">Back to Home </a>
+
+</div>
+
+</body>
+</html>
